@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+html {
+    overflow-x: hidden;
+    font-family: "Parkinsans", sans-serif;
+
+}
+
+h1 {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 30pt !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 25pt !important;
+}
+
+h3 {
+    font-family: "Parkinsans", sans-serif;
+}
+
+p {
+    font-family: "Parkinsans", sans-serif;
+}
+
+a {
+    font-family: "Parkinsans", sans-serif;
+}
+
+
+.boton1{
+    font-family: "Parkinsans", sans-serif;
+    font-size: 16pt !important;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #5777c9;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+
+}
+.boton1:hover{
+    background-color: #1b4fd2;
+    color: #fff;         
+}
+
+.titulo1{
+    color: #5777c9;
+    font-size: 32pt;
+    margin-bottom: 20px;
+}
+
+
+.formshadow {
+    filter: drop-shadow(-5px 6px 6px #a0a0a0a7);
+}
+
+.forma1 {
+    color: #fff;
+    border-radius: 50px;
+    padding-top: 0px;
+    width: 700px;
+    background-color: #BA989A;
+    border: 2px solid #1b4fd2;
+}
+
+.subtitle1{
+    font-size: 14pt;
+    margin: auto;
+}
+
+/*NAVEGACION SCROLLING*/
+
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 10000;
+    transition: all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item { 
+    transition: all 0.3s linear;
+}
+
+.nav-link {
+    font-size: 14pt;
+    font-weight: 400 !important; 
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: white;
+    border-radius: 50px;
+}
+
+.navbar-collapse {
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.navigation-wrap.scroll-on {
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 28px 0 rgb(0, 0, 0, 0.09);
+    transition: all 0.15s ease-in-out 0s;
+}
+
+.navigation-wrap.scroll-on .nav-link {
+    color: #7392e0;
+}
+
+.navigation-wrap.scroll-on .nav-link:hover,
+.navigation-wrap.scroll-on .nav-link.active {
+    color: white;
+    background-color: #bccce6;
+
+    
+}
+
+/* MENU HAMBURGUESA */
+
+.navbar-toggler {
+    background-color: #d6dbe3;
+    border: 2px solid #fff;
+}
+
+.navbar-toggler:hover {
+    background-color: #bccce6;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    
+}
+/*ESPACIO ENTRE SECCIONES */
+
+.seccion2 {
+    padding: 150px 0 !important;
+}
+
+/* SECCIONES WEB */
+
+
+.titulo1 {
+    color: #7392e0;
+    padding-top: 50px;
+    font-size: 40pt !important;
+    font-weight: 600;
+}
+
+.title1{
+    font-size: 16pt;
+    color: #525252;
+    font-weight: 300;
+}
+
+.seccion1 {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 9, 30, 0.599), rgba(0, 8, 25, 0.339)), url("../imagenes/smiling.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto !important;
+    height: 600px;
+}
+
+
+
+.card-title {
+    color: #5777c9;
+    font-weight: bold;
+}
+.card-img-top{
+
+    width: 450px;
+}
+.card {
+    box-shadow: 0px 2px 15px #a6b2d2;
+    border: 1px solid #7392e0;
+}
+/* SCROLLTOP  */
+
+.botonScrollTop {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background-color: #F6F3E8;
+    right: 20px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: #888888;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* PIE DE PAGINA  */
+
+footer {
+    background-color: #F6F3E8;
+
+}
+
+.color{
+    color: #232323;
+}
+
+.i1 {
+    color: #5777c9;
+    padding: 10px;
+}
+
+.i1:hover{
+    color: #1b4fd2;
+}
+
+footer p {
+    color: #232323;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.seccion3 {
+    width: 100%;
+    background-image: url("../imagenes/cut.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 150px !important;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+}
+
+.Inscripcion {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.646)), url("../imagenes/momentum2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    background-attachment: fixed;
+    width: 100% !important;
+}
+.Inscripcion h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 60px;
+    padding-top: 50px;
+}
+.email {
+    width: 200px;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    border: 4px solid #ffffff;
+
+    
+}
+
+.email:hover{
+    border: 4px solid #1b4fd2;
+}
+
+.boton1{
+    font-family: "Parkinsans", sans-serif;
+    font-size: 16pt !important;
+    text-decoration: none;
+    padding: 9px 65px;
+    background-color: #5777c9;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px !important;
+
+}
+.boton1:hover{
+    background-color: #1b4fd2;
+    color: #fff;         
+}
+
+.alertaRoja{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 22px;
+}
+.alertaVerde{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 22px;
+}

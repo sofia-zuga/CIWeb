@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+html {
+    overflow-x: hidden;
+    font-family: "Parkinsans", sans-serif;
+
+}
+
+h1 {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 30pt !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 25pt !important;
+}
+
+h3 {
+    font-family: "Parkinsans", sans-serif;
+}
+
+p {
+    font-family: "Parkinsans", sans-serif;
+}
+
+a {
+    font-family: "Parkinsans", sans-serif;
+}
+
+
+.boton1{
+    font-family: "Parkinsans", sans-serif;
+    font-size: 16pt !important;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #5777c9;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+
+}
+.boton1:hover{
+    background-color: #1b4fd2;
+    color: #fff;         
+}
+
+/* productos */
+
+.division1{
+    background-color: white;
+    height: 10px;
+    width: 600px;
+    margin: auto;
+
+}
+
+.cuadro1:hover {
+    background-color: #bdcaeca7 !important;
+    border-radius: 50px;
+}
+
+.formshadow {
+    filter: drop-shadow(-1px 10px 3px #a7adbea7);
+}
+
+.forma1 {
+    color: #fff;
+    border-radius: 50px;
+    padding-top: 0px;
+    height: 250px;
+    background-color: #BA989A;
+}
+
+.subtitle1{
+    font-size: 14pt;
+    margin: auto;
+}
+
+/*NAVEGACION SCROLLING*/
+
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 10000;
+    transition: all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item { 
+    transition: all 0.3s linear;
+}
+
+.nav-link {
+    font-size: 14pt;
+    font-weight: 400 !important; 
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #7392e0;
+    border-radius: 50px;
+}
+
+.navbar-collapse {
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.navigation-wrap.scroll-on {
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 28px 0 rgb(0, 0, 0, 0.09);
+    transition: all 0.15s ease-in-out 0s;
+}
+
+.navigation-wrap.scroll-on .nav-link {
+    color: #7392e0;
+}
+
+.navigation-wrap.scroll-on .nav-link:hover,
+.navigation-wrap.scroll-on .nav-link.active {
+    color: white;
+    background-color: #bccce6;
+
+    
+}
+
+/* MENU HAMBURGUESA */
+
+.navbar-toggler {
+    background-color: #d6dbe3;
+    border: 2px solid #fff;
+}
+
+.navbar-toggler:hover {
+    background-color: #bccce6;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    
+}
+
+
+/* SECCIONES WEB */
+
+
+.titulo1 {
+    color: white;
+    padding-top: 100px;
+    font-size: 30pt;
+}
+
+.title1{
+    font-size: 32pt;
+    color: #5777c9;
+}
+
+.seccion1 {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 9, 30, 0.827), rgba(0, 8, 25, 0.55)), url("../imagenes/cut2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0 150px;
+    background-attachment: fixed;
+    margin: auto !important;
+}
+.seccion2 {
+    padding: 50px 0 !important;
+}
+
+.seccion2 h2 {
+    color: #7392e0;
+    font-size: 45px;
+}
+
+.seccion2 h3 {
+    padding-bottom: 15px;
+}
+.seccion3 {
+    width: 100%;
+    background-image: url("../imagenes/cut.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 150px !important;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+}
+
+
+
+.card-title {
+    color: #5777c9;
+    font-weight: bold;
+}
+.card-img-top{
+    height: 300px;
+    width: 300px;
+}
+.card {
+    box-shadow: 0px 2px 15px #a6b2d2;
+    border: 1px solid #7392e0;
+}
+/* SCROLLTOP  */
+
+.botonScrollTop {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background-color: #F6F3E8;
+    right: 20px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: #888888;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* PIE DE PAGINA  */
+
+footer {
+    background-color: #F6F3E8;
+
+}
+
+.color{
+    color: #232323;
+}
+
+.i1 {
+    color: #5777c9;
+    padding: 10px;
+}
+
+.i1:hover{
+    color: #1b4fd2;
+}
+
+footer p {
+    color: #232323;
+    font-size: 18px;
+    font-weight: 300;
+
+}
